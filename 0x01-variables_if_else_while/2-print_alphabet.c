@@ -1,19 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <ctype.h>
 
 /**
- * main - a prgram that prints lowercase alphabets
+ * main - a prgram that prints lowercase and uppercase alphabets
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char ch;
+	int lowercase = 'a';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	while (lowercase <= 'z')
 	{
-		printf("%c\n", ch);
+		putchar(lowercase);
+		lowercase += 1;
 	}
+		putchar('\n');
 	return (0);
 }
