@@ -6,7 +6,7 @@
  * Return: Always 0 (success)
  */
 
-int_strlen(char *s)
+int _strlen(char *s)
 {
 	int a = 0; /* start the counter from 0*/
 
