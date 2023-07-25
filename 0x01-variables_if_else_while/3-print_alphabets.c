@@ -13,7 +13,7 @@ int uppercase = 'A';
 	while (lowercase <= 'z')
 	{
 		putchar(lowercase);
-		lowercase++;		
+		lowercase++;
 	}
 	while (uppercase <= 'Z')
 	{
